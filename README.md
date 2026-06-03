@@ -1,0 +1,1 @@
+Learning HTML is a beginner-friendly repository created to learn and practice the fundamentals of HTML5. It covers essential concepts such as page structure, headings, paragraphs, links, images, lists, tables, forms, and semantic elements. The goal is to build a strong foundation in web development and prepare for learning CSS, JavaScript, and modern frontend technologies.
