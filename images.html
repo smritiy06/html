@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <!-- <img src="https://static.vecteezy.com/system/resources/thumbnails/060/843/811/small/close-up-of-raindrops-on-leaves-hd-background-luxury-hd-wallpaper-image-trendy-background-illustration-free-photo.jpg" alt="no image">
+    <br />
+    <img src="./flower-729510_1280.jpg"width = "600px" height= "400px" alt="no image">
+    <picture>
+        <source media="(min-width: 650px)" srcset="./eid.png">
+        <img src="./eid.png" width="600px" height="400px" alt="no image">
+    </picture> -->
+    <!-- an image map generator -->
+    <img src="flower-729510_1280.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick = "one()" target="" alt="" title="" href="" coords="829,409,59" shape="circle">
+    <area onclick = "two()" target="" alt="" title="" href="" coords="1112,624,1118,831,1082,824,1064,563,1051,529,1092,531" shape="poly">
+    <area onclick = "three()" target="" alt="" title="" href="" coords="842,249,858,184,891,127,915,118,929,129,934,168,919,227,871,318,856,353,838,349,837,313" shape="poly">
+</map>
+<script>
+    function one()
+    {
+        alert("You clicked on center 🌻.")
+    }
+    function two()
+    {
+        alert("You clicked on the stem 🥀.")
+    }
+    function three()
+    {
+        alert("You clicked on the petal 🌸.")
+    }
+</script>
+</body>
+</html>
